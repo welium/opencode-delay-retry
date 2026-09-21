@@ -127,3 +127,7 @@ usable reset info is preferred.
 bun test        # parser + policy tests (31 tests)
 bunx tsc --noEmit
 ```
+
+## License
+
+MIT — see [LICENSE](./LICENSE).

@@ -1,0 +1,21 @@
+{
+  "name": "opencode-delayed-retry",
+  "version": "1.0.0",
+  "description": "Delay and retry OpenCode model requests on HTTP 429 using provider reset information",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.0.12"
+  },
+  "devDependencies": {
+    "bun-types": "^1.4.2",
+    "typescript": "^5.9.3"
+  }
+}
